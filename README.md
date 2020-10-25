@@ -1,8 +1,7 @@
->This Project demenstrates the use of Data File Handling in C++.
->The program is pretty straight forward, just pull the entire repository and open
-with any C++ Compiler/IDE.
+>This Project demenstrates the use of Data File Handling in C++. The program is pretty straight forward, just pull the entire repository and open with any C++ Compiler/IDE.
 
 #Main Menu:
+```
 ==================================================
 ==========GROCERY STORE AND E-BILLING=============
 ==================================================
@@ -17,10 +16,11 @@ with any C++ Compiler/IDE.
                  03. EXIT
 
                 Please Select Your Option (1-3) :
-
--Enter your Option above.
+```
+*Enter your Option above.
 
 #Customer Menu:
+```
                 ITEM MENU
 ===============================================
 INO.            NAME            PRICE
@@ -43,11 +43,11 @@ Enter The Item Code of The Item : 2
 Quantity in Number : 6
 
 Do You Want To Order Another Item ?(Y/N) :
-
--Enter your Order Details above.
+```
+*Enter your Order Details above.
 
 #Billing Menu:
-
+```
                                 INVOICE
 ============================================================================
  Ino    Item    Quantity        Price   Amount  Amount After Discount
@@ -69,9 +69,10 @@ Do You Want To Order Another Item ?(Y/N) :
                         **THANK YOU FOR VISITING US**
 
                         **PLEASE COME AGAIN**
+```
 
 #Admin Menu:
-
+```
 =======================================================
 =============GROCERY STORE AND E-BILLING===============
 =======================================================
@@ -96,5 +97,5 @@ Do You Want To Order Another Item ?(Y/N) :
         8.LOGOUT AND EXIT
 
         Please Enter Your Choice (1-7) :
-
--In above Menu you can access Admin Privileges.
+```
+*In above Menu you can access Admin Privileges.
