@@ -250,7 +250,7 @@ int place_order()
 			if(i.retino()==order_arr[x])
 			{
 				amt=i.retprice()*quan[x];
-				damt=amt-(amt*i.retdis()/100);
+				damt=amt-(amt*i.retdis()/100.0);
 				cout<<"\n "<<order_arr[x]<<"\t"<<i.retiname()<<"\t"<<quan[x]<<"\t\t"<<i.retprice()<<"\t"<<amt<<"\t\t"<<damt;
 				total+=damt;
 			}
