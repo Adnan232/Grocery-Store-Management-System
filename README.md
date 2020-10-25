@@ -3,7 +3,7 @@
 with any C++ Compiler/IDE.
 
 #Main Menu:
-```==================================================
+==================================================
 ==========GROCERY STORE AND E-BILLING=============
 ==================================================
 
@@ -16,12 +16,12 @@ with any C++ Compiler/IDE.
 
                  03. EXIT
 
-                Please Select Your Option (1-3) :```
+                Please Select Your Option (1-3) :
 
 -Enter your Option above.
 
 #Customer Menu:
-```                ITEM MENU
+                ITEM MENU
 ===============================================
 INO.            NAME            PRICE
 ===============================================
@@ -42,13 +42,13 @@ INO.            NAME            PRICE
 Enter The Item Code of The Item : 2
 Quantity in Number : 6
 
-Do You Want To Order Another Item ?(Y/N) :```
+Do You Want To Order Another Item ?(Y/N) :
 
 -Enter your Order Details above.
 
 #Billing Menu:
 
-```                                INVOICE
+                                INVOICE
 ============================================================================
  Ino    Item    Quantity        Price   Amount  Amount After Discount
 ============================================================================
@@ -68,11 +68,11 @@ Do You Want To Order Another Item ?(Y/N) :```
 
                         **THANK YOU FOR VISITING US**
 
-                        **PLEASE COME AGAIN**```
+                        **PLEASE COME AGAIN**
 
 #Admin Menu:
 
-```=======================================================
+=======================================================
 =============GROCERY STORE AND E-BILLING===============
 =======================================================
 
@@ -95,6 +95,6 @@ Do You Want To Order Another Item ?(Y/N) :```
 
         8.LOGOUT AND EXIT
 
-        Please Enter Your Choice (1-7) :```
+        Please Enter Your Choice (1-7) :
 
 -In above Menu you can access Admin Privileges.
