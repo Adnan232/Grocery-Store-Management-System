@@ -17,7 +17,7 @@
 
                 Please Select Your Option (1-3) :
 ```
-*Enter your Option above.
+>Enter your Option above.
 
 #Customer Menu:
 ```
@@ -44,7 +44,7 @@ Quantity in Number : 6
 
 Do You Want To Order Another Item ?(Y/N) :
 ```
-*Enter your Order Details above.
+>Enter your Order Details above.
 
 #Billing Menu:
 ```
@@ -70,6 +70,7 @@ Do You Want To Order Another Item ?(Y/N) :
 
                         **PLEASE COME AGAIN**
 ```
+>Above Output is your Bill.
 
 #Admin Menu:
 ```
@@ -98,4 +99,4 @@ Do You Want To Order Another Item ?(Y/N) :
 
         Please Enter Your Choice (1-7) :
 ```
-*In above Menu you can access Admin Privileges.
+>In above Menu you can access Admin Privileges.
