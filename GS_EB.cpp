@@ -72,7 +72,7 @@ int constant()
 //******************************************************************************
 int write_item()
 {
-	fio.open("store",ios::in|ios::out|ios::app);
+	fio.open("store.txt",ios::in|ios::out|ios::app);
 	i.create_item();
 	fio.write((char*)&i,sizeof(grocery_store));
 	fio.close();
@@ -87,7 +87,7 @@ int display_all()
 {
 	system("cls");
 	cout<<"\n\n\n\t\tDISPLAY ALL RECORD !!!\n\n";
-	fio.open("store",ios::in|ios::out);
+	fio.open("store.txt",ios::in|ios::out);
 	while(fio.read((char*)&i,sizeof(grocery_store)))
 	{
 		i.display_item();
@@ -106,7 +106,7 @@ int display_sp(int n)
 	system("cls");
 	cout<<"\n\n====================================\n";
 	cin.ignore();
-	fio.open("store",ios::in|ios::out);
+	fio.open("store.txt",ios::in|ios::out);
 	while(fio.read((char*)&i,sizeof(grocery_store)))
 	{
 		if(i.retino()==n)
@@ -130,7 +130,7 @@ int modify_item()
 	cout<<"\n\n\tTo Modify ";
 	cout<<"\n\n\tPlease Enter The Item Code to be Modified :";
 	cin>>no;
-	fio.open("store",ios::in|ios::out);
+	fio.open("store.txt",ios::in|ios::out);
 	while(fio.read((char*)&i,sizeof(grocery_store)))
 	{
 		if(i.retino()==no)
@@ -164,9 +164,9 @@ int delete_item()
 	cin>>no;
 	display_sp(no);
 	cout<<"\n\nThe above Item will be Deleted";
-	fio.open("store",ios::in|ios::out);
+	fio.open("store.txt",ios::in|ios::out);
 	fstream fio2;
-	fio2.open("temp",ios::binary|ios::out);
+	fio2.open("temp.txt",ios::binary|ios::out);
 	fio.seekg(0,ios::beg);
 	while(fio.read((char*)&i,sizeof(i)))
 	{
@@ -177,8 +177,8 @@ int delete_item()
 	}
 	fio2.close();
 	fio.close();
-	remove("store");
-	rename("temp","store");
+	remove("store.txt");
+	rename("temp.txt","store.txt");
 	cin.ignore();
 	cout<<"\n\nItem Is deleted!!!";
 	cin.ignore();
@@ -190,7 +190,7 @@ int delete_item()
 int menu()
 {
 	system("cls");
-	fio.open("store",ios::in|ios::out|ios::app);
+	fio.open("store.txt",ios::in|ios::out|ios::app);
 	if(!fio)
 	{
 		cout<<"ERROR!!! FILE COULD NOT BE OPEN\n\n\n Go To Admin Menu to create Menu";
@@ -243,7 +243,7 @@ int place_order()
 	cout<<"============================================================================";
 	for(int x=0;x<=c;x++)
 	{
-		fio.open("store",ios::in|ios::out);
+		fio.open("store.txt",ios::in|ios::out);
 		fio.read((char*)&i,sizeof(grocery_store));
 		while(!fio.eof())
 		{
