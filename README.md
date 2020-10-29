@@ -1,4 +1,5 @@
 >This Project demenstrates the use of Data File Handling in C++. The program is pretty straight forward, just pull the entire repository and open with any C++ Compiler/IDE.
+
 >To access the Administrator Menu see Password Concept at LINE 374 in GS_EB.cpp File.
 
 #Main Menu:
